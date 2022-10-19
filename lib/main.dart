@@ -2,6 +2,8 @@ import 'package:app_components_valtx/ui/alerts_view.dart';
 import 'package:app_components_valtx/ui/avatar_view.dart';
 import 'package:app_components_valtx/ui/cards_view.dart';
 import 'package:app_components_valtx/ui/expanded_view.dart';
+import 'package:app_components_valtx/ui/home_view.dart';
+import 'package:app_components_valtx/ui/input_view.dart';
 import 'package:app_components_valtx/ui/listiview_view.dart';
 import 'package:app_components_valtx/ui/listview_builder_view.dart';
 import 'package:app_components_valtx/ui/stack_view.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const StackView(),
+      home: const HomeView(),
     );
   }
 }
